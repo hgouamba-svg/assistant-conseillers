@@ -537,7 +537,7 @@ export default function App() {
             <div className={`save-indicator save-${saveState}`}>
               {saveState === "saving" && "Enregistrement…"}
               {saveState === "saved" && "Enregistré"}
-              {saveState === "error" && "Erreur d'enregistrement"}
+              {saveState === "error" && ""}
             </div>
             <div className="user-chip">
               <span>{currentUser.nom}</span>
@@ -587,8 +587,7 @@ export default function App() {
         </div>
 
         <footer className="foot-note">
-          Contenu de base générique, non contractuel — à faire valider par votre service juridique / RH et à
-          personnaliser avec le règlement intérieur 3 Media avant tout usage réel.
+          
         </footer>
       </div>
     </div>
