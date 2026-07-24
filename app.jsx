@@ -1499,7 +1499,7 @@ function Courriers({ collaborateurs, cas, setCas, modeles, currentUser }) {
         <textarea className="preview-text no-print" value={generated} onChange={() => {}} readOnly />
         <div id="print-area" className="print-area">{generated}</div>
         <p className="legal-warning no-print">
-          <AlertTriangle size={13} /> Modèle générique —</p>
+          <AlertTriangle size={13} />—</p>
       </div>
     </div>
   );
