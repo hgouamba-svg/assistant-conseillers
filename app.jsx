@@ -1780,9 +1780,4 @@ const CSS = `
     display: block; position: absolute; top: 0; left: 0; width: 100%;
     padding: 30px 40px; white-space: pre-wrap; font-family: 'IBM Plex Mono', monospace;
     font-size: 11.5pt; line-height: 1.6; color: #111;
-  }
-}
 `;
-
-export default App;
-
