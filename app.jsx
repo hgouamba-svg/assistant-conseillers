@@ -1499,8 +1499,7 @@ function Courriers({ collaborateurs, cas, setCas, modeles, currentUser }) {
         <textarea className="preview-text no-print" value={generated} onChange={() => {}} readOnly />
         <div id="print-area" className="print-area">{generated}</div>
         <p className="legal-warning no-print">
-          <AlertTriangle size={13} /> Modèle générique — à faire relire par le service juridique / RH avant tout envoi. Vérifiez les délais légaux dans l'onglet Répertoire.
-        </p>
+          <AlertTriangle size={13} /> Modèle générique —</p>
       </div>
     </div>
   );
