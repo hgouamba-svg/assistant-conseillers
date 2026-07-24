@@ -1782,4 +1782,4 @@ const CSS = `
     font-size: 11.5pt; line-height: 1.6; color: #111;
   }
 }
-`;
+`;export default App;
