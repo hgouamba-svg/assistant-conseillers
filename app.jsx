@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
-import logo from "./logo.png";
+import logo from "./public/logo.png";
 import {
   Search,
   Users,
