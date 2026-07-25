@@ -381,7 +381,7 @@ function LoginGate({ utilisateurs, onLogin }) {
   return (
     <div className="login-screen">
       <div className="login-card">
-       <img src="/logo.png" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
+       <img src="/logo.jpg" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
         <p className="subtitle">3 Media</p>
         <form onSubmit={submit} className="login-form">
           <label>
@@ -526,7 +526,7 @@ export default function App() {
       <div className="shell">
         <header className="masthead">
           <div className="masthead-left">
-      <img src="/logo.png" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
+      <img src="/logo.jpg" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
               <h1>Registre disciplinaire</h1>
               <p className="subtitle">3 Media — répertoire des manquements &amp; suivi des procédures</p>
             </div>
