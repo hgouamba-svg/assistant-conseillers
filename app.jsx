@@ -383,7 +383,7 @@ function LoginGate({ utilisateurs, onLogin }) {
       <div className="login-card">
         <div className="crest login-crest">RD</div>
         <h1>Registre disciplinaire</h1>
-        <p className="subtitle">3 Media · Équipe EDF</p>
+        <p className="subtitle">3 Media</p>
         <form onSubmit={submit} className="login-form">
           <label>
             Utilisateur
