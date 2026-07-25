@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import logo from "./logo.png";
 import {
   Search,
   Users,
@@ -526,7 +527,7 @@ export default function App() {
       <div className="shell">
         <header className="masthead">
           <div className="masthead-left">
-          <img src="/logo.png" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} /><div>
+      <img src={logo} alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
               <h1>Registre disciplinaire</h1>
               <p className="subtitle">3 Media — répertoire des manquements &amp; suivi des procédures</p>
             </div>
