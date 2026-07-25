@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { 
-  Users, FileText, Plus, Trash2, CalendarDays, UserPlus 
+  Users, FileText, Plus, Trash2, CalendarDays 
 } from "lucide-react";
 
 const CSS = `
