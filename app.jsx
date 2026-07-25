@@ -526,8 +526,7 @@ export default function App() {
       <div className="shell">
         <header className="masthead">
           <div className="masthead-left">
-           <img src="./logo.png" alt="3media FIRST" className="crest" style={{ width: '42px', height: '42px', objectFit: 'contain' }} />
-            <div>
+          <img src="/logo.png" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} /><div>
               <h1>Registre disciplinaire</h1>
               <p className="subtitle">3 Media — répertoire des manquements &amp; suivi des procédures</p>
             </div>
