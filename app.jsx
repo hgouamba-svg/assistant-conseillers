@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
-<img src="/logo.png" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
 import {
   Search,
   Users,
