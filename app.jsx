@@ -530,7 +530,7 @@ export default function App() {
             <div className="crest">RD</div>
             <div>
               <h1>Registre disciplinaire</h1>
-              <p className="subtitle">3 Media · Équipe EDF — répertoire des manquements &amp; suivi des procédures</p>
+              <p className="subtitle">3 Media — répertoire des manquements &amp; suivi des procédures</p>
             </div>
           </div>
           <div className="header-right">
