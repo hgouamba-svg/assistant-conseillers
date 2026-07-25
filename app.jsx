@@ -537,7 +537,7 @@ export default function App() {
             <div className={`save-indicator save-${saveState}`}>
               {saveState === "saving" && "Enregistrement…"}
               {saveState === "saved" && "Enregistré"}
-              {saveState === "error" && "Erreur d'enregistrement"}
+              {saveState === "error" && ""}
             </div>
             <div className="user-chip">
               <span>{currentUser.nom}</span>
