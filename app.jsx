@@ -589,13 +589,16 @@ export default function App() {
   );
 }
 
-function TabButton({ id, code, icon: Icon, active, onClick, children }) {
+function TabButton(props) {
+  const { id, code, icon: IconComponent, active, onClick, children } = props;
   return (
     <button className={`tab-btn ${active ? "tab-btn-active" : ""}`} onClick={() => onClick(id)}>
       <span className="tab-code">{code}</span>
-      <Icon size={16} strokeWidth={2} />
+      {IconComponent && <IconComponent size={16} strokeWidth={2} />}
       <span>{children}</span>
     </button>
+  );
+}
   );
 }
 
