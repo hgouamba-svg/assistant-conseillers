@@ -381,8 +381,7 @@ function LoginGate({ utilisateurs, onLogin }) {
   return (
     <div className="login-screen">
       <div className="login-card">
-        <img src="./Capture d’écran 2026-07-25 à 02.02.02.png" alt="Logo 3media FIRST" className="login-crest" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
-        <h1>Registre disciplinaire</h1>
+       <img src="./logo.png" alt="3media FIRST" className="login-crest" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />        <h1>Registre disciplinaire</h1>
         <p className="subtitle">3 Media</p>
         <form onSubmit={submit} className="login-form">
           <label>
