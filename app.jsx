@@ -527,24 +527,21 @@ export default function App() {
         <header className="masthead">
           <div className="masthead-left">
       <img src="/logo.jpg" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
-              <h1>Registre disciplinaire</h1>
-              <p className="subtitle">3 Media — répertoire des manquements &amp; suivi des procédures</p>
-            </div>
-          </div>
-          <div className="header-right">
-            <div className={`save-indicator save-${saveState}`}>
-              {saveState === "saving" && "Enregistrement…"}
-              {saveState === "saved" && "Enregistré"}
-              {saveState === "error" && ""}
-            </div>
-            <div className="user-chip">
-              <span>{currentUser.nom}</span>
-              <span className="user-chip-role">{ROLES.find((r) => r.id === currentUser.role)?.label}</span>
-            </div>
-            <button className="btn-quiet" onClick={handleLogout}><LogOut size={14} /> Déconnexion</button>
-          </div>
-        </header>
-
+      <header className="app-header">
+  <div className="header-left" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+    <img src="/logo.jpg" alt="3media FIRST" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
+    <div>
+      <h1>Registre disciplinaire</h1>
+      <p className="subtitle">3 Media – répertoire des manquements &amp; suivi des procédures</p>
+    </div>
+  </div>
+  <div className="header-right">
+    <div className={`save-indicator save-${saveState}`}>
+      {/* ...vos indicateurs ou boutons existants... */}
+    </div>
+    <button className="btn-quiet" onClick={handleLogout}><LogOut size={14} /> Déconnexion</button>
+  </div>
+</header>
         <div className="body">
           <nav className="tabs">
             {visibleTabs.map((t) => (
